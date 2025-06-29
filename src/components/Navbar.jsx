@@ -62,9 +62,9 @@ const Navbar = ({ isClicked, toggleNavClick }) => {
                     <ul className='flex gap-10 capitalize'>
                          {
                               navigation.map((item) => (
-                                   <li key={item.title} className='inline-block font-medium'>
+                                   <li key={item.title} className='inline-block '>
                                         <a href={item.url}
-                                             className={`relative after:absolute after:bottom-[-0.2rem] after:left-0 after:h-[3px] after:w-[20px] after:rounded-xl after:transition-all after:duration-300 after:ease-in hover:after:bg-blue-600 hover:after:w-full
+                                             className={`relative font-semibold after:absolute after:bottom-[-0.2rem] after:left-0 after:h-[3px] after:w-[20px] after:rounded-xl after:transition-all after:duration-300 after:ease-in hover:after:bg-blue-600 hover:after:w-full
                                               ${activeLink === item.title ? 'text-blue-600 relative after:absolute after:bottom-[-0.2rem] after:bg-blue-600 after:left-0 after:h-[3px] after:w-full after:rounded-xl ' : 'text-white'}
                                              hover:text-blue-600 transition-colors duration-300 ease-in`}
                                         >
