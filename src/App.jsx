@@ -8,7 +8,7 @@ const App = () => {
       {/* Header section */}
       <Header />
 
-
+      
     </>
 
   )
