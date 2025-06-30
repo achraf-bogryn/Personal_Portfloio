@@ -42,16 +42,16 @@ const Projects = () => {
                                              ))}
                                         </div>
                                         <div className='flex items-center gap-4'>
-                                             <a
+                                             {/* <a
                                                   href={project.liveUrl}
                                                   className='px-4 py-3 flex items-center gap-2 capitalize font-semibold bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-md'
                                                   target='_blank'
                                              >
                                                   <Eye size={20} />
                                                   <p className='font-semibold'>Live</p>
-                                             </a>
+                                             </a> */}
 
-                                                                                          <a
+                                                <a
                                                   href={project.sourceUrl}
                                                   className='px-4 py-3 flex items-center gap-2 capitalize font-semibold bg-gray-600 hover:bg-blue-700 transition-colors duration-300 ease-in text-white rounded-md'
                                                   target='_blank'
