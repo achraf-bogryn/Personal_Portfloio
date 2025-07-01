@@ -45,7 +45,8 @@ const ExperienceMain = () => {
   return (
     <section id="experience" className="py-20 px-4 text-center">
       <h2 className="text-3xl md:text-4xl font-extrabold capitalize leading-[1.2] text-white mb-15 mt-15">
-        My <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Experience</span>
+        My 
+        <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Experience</span>
       </h2>
 
       <div className="flex flex-col gap-20 max-w-[900px] mx-auto">
