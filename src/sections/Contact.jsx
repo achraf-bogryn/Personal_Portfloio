@@ -26,18 +26,16 @@ const Contact = () => {
               >
                 212644091028
               </a>
-
-              {/* Email */}
-              <div className='mb-2 flex flex-wrap items-center justify-start gap-2'>
-                <Mail className='size-6' />
-                <a
-                  className='text-lg font-semibold transition-colors duration-300 hover:text-blue-600'
-                  href='mailto:achraf.bogryn@um5r.ac.ma'
-                >
-                  achraf.bogryn@um5r.ac.ma
-                </a>
-              </div>
-
+            </div>
+            {/* Email */}
+            <div className='mb-4 flex flex-wrap items-center justify-start gap-2'>
+              <Mail className='size-6' />
+              <a
+                className='text-lg font-semibold transition-colors duration-300 hover:text-blue-600'
+                href='mailto:achraf.bogryn@um5r.ac.ma'
+              >
+                achraf.bogryn@um5r.ac.ma
+              </a>
             </div>
           </div>
         </div>
