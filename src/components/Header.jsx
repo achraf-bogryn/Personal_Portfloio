@@ -36,10 +36,10 @@ const Header = () => {
                     {/* logo */}
                     <div className='z-10'>
                          <a className='font-bold text-white md:text-lg' href='/'>
-                              Achraf{' '}
-                              <span className='bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent'>
+                              Achraf Bogryn
+                              {/* <span className='bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent'>
                                    Bogryn
-                              </span>
+                              </span> */}
                          </a>
                     </div>
 
