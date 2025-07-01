@@ -7,6 +7,7 @@ import About from './sections/About'
 import Skills from './sections/Skills'
 import Contact from './sections/Contact'
 import Footer from './components/Footer'
+import ExperienceMain from './sections/ExperienceMain'
 
 
 const App = () => {
@@ -18,14 +19,18 @@ const App = () => {
       <Hero />
       {/* projects section */}
       <Projects />
-       {/* about section */}
-       <About />
-       {/* Skills */}
-       <Skills />
-       {/* Contac us section */}
-       <Contact />
-       {/* Footer */}
-       <Footer />
+      {/* about section */}
+      <About />
+      {/* Skills */}
+      <Skills />
+      {/* Experience Section */}
+      <ExperienceMain />
+      {/* Contac us section */}
+      <Contact />
+      {/* Footer */}
+      <Footer />
+
+
     </>
 
   )
