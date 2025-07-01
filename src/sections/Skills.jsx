@@ -21,7 +21,7 @@ const Skills = () => {
                                    <img
                                         src={skill.icon}
                                         alt={skill.name}
-                                        className='size-12 hover:-translate-y-2 transition-transform duration-500 ease-in-out md:size-16 '
+                                        className='size-12 hover:-translate-y-2 transition-transform duration-500 ease-in-out md:size-16 hover:bg-gray-800'
                                    />
                               </div>
 
