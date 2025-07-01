@@ -5,6 +5,7 @@ const navigation = [
      { title: 'projects', url: '#projects' },
      { title: 'about', url: '#about' },
      { title: 'skills', url: '#skills' },
+     { title: 'experience', url: '#experience' },
      { title: 'contact', url: '#contact' },
 
 ]
