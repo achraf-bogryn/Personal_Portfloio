@@ -21,10 +21,10 @@ const Navbar = ({ isClicked, toggleNavClick }) => {
                sections.forEach((section) => {
                     if (section) {
                          const sectionTop = section.offsetTop;
-                         const sectionHeight = section.clientHeight;
+                         const sectionHeight = section.offsetHeight;
 
 
-                         if (scrollPosition >= sectionTop && scrollPosition <= sectionTop + sectionHeight) {
+                         if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
                               setActiveLink(section.id);
                          }
 
