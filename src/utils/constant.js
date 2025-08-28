@@ -36,7 +36,7 @@ import aws from '../assets/aws.svg';
 import gcp from '../assets/gcp.svg';
 import java from '../assets/java.svg';
 import bi from '../assets/bi.svg';
-
+import langchaain from '../assets/langchain.svg';
 
 export const projects = [
   {
@@ -105,10 +105,11 @@ export const skills = [
   { id: 12, name: 'Scikit-learn', icon: scikit },
   { id: 13, name: 'TensorFlow', icon: tensorflow },
   { id: 14, name: 'PyTorch', icon: pytorch },
+  { id: 28, name: 'Langchain', icon: langchaain },
 
   // 🟩 Frontend & Frameworks
   { id: 4, name: 'React', icon: React },
-  { id: 17, name: 'Next.js', icon: next },
+  // { id: 17, name: 'Next.js', icon: next },
 
 
 
