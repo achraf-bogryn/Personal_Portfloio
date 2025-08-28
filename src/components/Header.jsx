@@ -9,6 +9,7 @@ const Header = () => {
      const toggleNavClick = () => {
           setIsClicked(!isClicked)
      }
+     
 
      useEffect(() => {
           const handleScroll = () => {
@@ -25,7 +26,6 @@ const Header = () => {
           return () => {
                window.removeEventListener('scroll', handleScroll);
           };
-
 
      }, [])
      return (
