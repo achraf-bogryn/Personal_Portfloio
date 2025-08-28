@@ -24,7 +24,7 @@ import tensorflow from '../assets/tensorflow.svg';
 import pytorch from '../assets/pytorch.svg';
 import flask from '../assets/flask.svg';
 import spring from '../assets/spring.svg';
-import next from '../assets/next.svg';
+// import next from '../assets/next.svg';
 import spark from '../assets/spark.svg';
 import hadoop from '../assets/hadoop.svg';
 import airflow from '../assets/airflow.svg';
