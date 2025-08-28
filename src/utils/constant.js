@@ -5,6 +5,7 @@ import Project2 from '../assets/project-3.png';
 import Project4 from '../assets/Churn .PNG';
 import Project5 from '../assets/sentiment.PNG';
 import Project6 from '../assets/next.PNG';
+import Project7 from '../assets/student.webp';
 
 // skills images
 import Html from '../assets/html5.svg';
@@ -82,6 +83,17 @@ export const projects = [
   //   liveUrl: '',
   //   sourceUrl: 'https://github.com/achraf-bogryn/algerian-forest-fires-regression/tree/main',
   // },
+  {
+  id: 5,
+  title: 'Math Score Prediction Model',
+  description:
+    'Developed a predictive model to estimate student mathematics performance using socio-demographic and academic data. Conducted experiments with multiple regression models, performed hyperparameter tuning, and achieved an R² score of 0.89.',
+  image: Project7, // make sure you import or add the project image
+  stack: ['Python', 'Flask', 'Scikit-learn', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Regression', 'Hyperparameter Tuning'],
+  liveUrl: '', // add live demo if available
+  sourceUrl: 'https://github.com/achraf-bogryn/ML_Project/tree/main',
+},
+
 ];
 
 
