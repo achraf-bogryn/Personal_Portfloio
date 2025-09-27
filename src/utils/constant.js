@@ -6,6 +6,7 @@ import Project4 from '../assets/Churn .PNG';
 import Project5 from '../assets/sentiment.PNG';
 import Project6 from '../assets/next.PNG';
 import Project7 from '../assets/student.webp';
+import Project8 from '../assets/chatbot.webp';
 
 // skills images
 import Html from '../assets/html5.svg';
@@ -93,6 +94,26 @@ export const projects = [
   liveUrl: '', // add live demo if available
   sourceUrl: 'https://github.com/achraf-bogryn/ML_Project/tree/main',
 },
+{
+  id: 6,
+  title: 'Friendly Q&A Chatbot (Ollama + OpenAI)',
+  description:
+    "A versatile AI-powered chatbot that allows users to interact with both local Ollama models and cloud-based OpenAI models. Features a friendly, chat-like interface with adjustable response length and temperature settings.",
+  image: Project8, // Replace with your imported image variable for the project
+  stack: [
+    'Python', 
+    'Streamlit', 
+    'LangChain', 
+    'OpenAI API', 
+    'Ollama', 
+    'Markdown', 
+    'Session State', 
+    'AI Chatbot', 
+    'NLP'
+  ],
+  liveUrl: '', // Add live demo URL if available
+  sourceUrl: 'https://github.com/achraf-bogryn/Chatbot_OpenIA',
+}
 
 ];
 
