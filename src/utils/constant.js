@@ -59,7 +59,7 @@ export const projects = [
     description:
       'Binary sentiment classification of movie reviews using an RNN architecture trained on the IMDB dataset. This project focuses on NLP and sequence modeling.',
     image: Project2,
-    stack: ['Keras', 'TensorFlow', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'NLP', 'Recurrent Neural Network'],
+    stack: ['Keras', 'TensorFlow', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'NLP','LSTM', 'Recurrent Neural Network'],
     liveUrl: '',
     sourceUrl: 'https://github.com/achraf-bogryn/RNN-Imdb-Sentiment/tree/main',
   },
